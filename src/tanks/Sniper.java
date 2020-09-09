@@ -24,7 +24,7 @@ public class Sniper extends Tank{
 	
 	public Sniper(Point p, team t, command c){
 		
-		super(p,t,c, new File("C:\\Users\\Computer\\IdeaProjects\\TankRoyale\\src\\images\\redTank.png"), Tank.SNIPER, Sniper.MAX_HEALTH, 6);
+		super(p,t,c, new File("src\\images\\redTank.png"), Tank.SNIPER, Sniper.MAX_HEALTH, 6);
 
 
 	}

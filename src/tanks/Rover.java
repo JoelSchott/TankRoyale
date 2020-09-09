@@ -22,7 +22,9 @@ public class Rover extends Tank{
 	
 	public Rover(Point p, team t, command c){
 		
-		super(p,t,c, new File("C:\\Users\\Computer\\IdeaProjects\\TankRoyale\\src\\images\\blueTank.png"), Tank.ROVER, Rover.MAX_HEALTH, 6);
+		//super(p,t,c, new File("C:\\Users\\Computer\\IdeaProjects\\TankRoyale\\src\\images\\blueTank.png"), Tank.ROVER, Rover.MAX_HEALTH, 6);
+		super(p,t,c, new File("src\\images\\blueTank.png"), Tank.ROVER, Rover.MAX_HEALTH, 6);
+
 
 	}
 

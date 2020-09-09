@@ -22,7 +22,7 @@ public class Grenadier extends Tank{
 	
 	public Grenadier(Point p, team t, command c){
 		
-		super(p,t,c, new File("C:\\Users\\Computer\\IdeaProjects\\TankRoyale\\src\\images\\greenTank.png"), Tank.GRENADIER, Grenadier.MAX_HEALTH, 7);
+		super(p,t,c, new File("src\\images\\greenTank.png"), Tank.GRENADIER, Grenadier.MAX_HEALTH, 7);
 
 	}
 
